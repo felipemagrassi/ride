@@ -29,3 +29,25 @@
 - Maior parte das codebases não tem unidades independentes
     - Mockar DB == Acoplar com banco falso
 - Disciplina > Experiencia e Conhecimento Tecnico em testar
+
+## Arquitetura Hexagonal
+
+- Contexto:
+    - Baixa reutilizabilidade de códigos ( Usecases acoplados a um controller HTTP, só consigo calcular os juros por 1 usecase)
+    - Dificuldade na testabilidade de códigos de negocios ( UI, negocios, Bancos de dados, HttpServer acoplados)
+
+- Drivers Side
+    - Test Case
+    - Human 
+    - Message Queue
+    - Page APP
+
+- Resources Side
+    - Bancos de dados
+    - SMTP 
+    - Message Queue
+    - Repository
+
+- Aplicaçao pode ser igualmente movida por usuarios, testes ou scripts e testada e desenvolvida isoladas de eventuais recursos externos
+- Acoplamento não é necessario apenas para substituir, mas sim para gerar melhores testes e mais possibilidades de recursos diferentes.
+- Não tem relaçao com dominios
