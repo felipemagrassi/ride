@@ -1,3 +1,14 @@
+---
+id: 1722038494-ccca16
+aliases:
+  - ccca16
+tags:
+  - courses
+  - engineering
+---
+
+# ccca16
+
 ## Codigo Limpo 
 
 - Quanto mais incerto for o contexto, mais dificil vai ser a estimativa do projeto
