@@ -20,7 +20,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm --run test"
+    "test": "jest",
+    "start": "nodemon src/driver/api.ts"
   },
   "keywords": [],
   "author": "",

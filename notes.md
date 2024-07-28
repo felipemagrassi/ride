@@ -62,3 +62,4 @@ tags:
 - Aplicaçao pode ser igualmente movida por usuarios, testes ou scripts e testada e desenvolvida isoladas de eventuais recursos externos
 - Acoplamento não é necessario apenas para substituir, mas sim para gerar melhores testes e mais possibilidades de recursos diferentes.
 - Não tem relaçao com dominios
+- Contratos para desacoplamento ( interfaces em linguagens tipadas, testes em linguagens dinamicas )
